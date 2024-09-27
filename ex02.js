@@ -4,7 +4,12 @@
 // Test your function with different numbers of arguments.
 
 function subtract(...numbers) {
-  // Your code here
+  let diff = []
+  for (j=0; j<numbers.length-1 ; j++){
+    diff[j] = numbers[j]- numbers[j+1]
+  }
+  return diff
 }
 
 console.log(subtract(10, 2, 3)); // Example usage
+console.log(subtract(10, 2, 3,9,77)); // Example usage

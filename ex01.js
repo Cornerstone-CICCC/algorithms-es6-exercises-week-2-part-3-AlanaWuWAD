@@ -4,7 +4,6 @@
 // Finally, log `newNumbers` to the console.
 
 const numbers = [1, 2, 3];
-
-// Your code here
+const newNumbers = [...numbers, 99, 23]
 
 console.log(newNumbers);
